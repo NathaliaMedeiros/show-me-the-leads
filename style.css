@@ -17,18 +17,16 @@
 }
 
 .principal-text{
-  height: 382px;
   background-color: #073EE9;
   border-bottom-right-radius: 229px;
 }
 
 .principal-text h5{
-  position: absolute;
-  width: 719px;
-  left: 113px;
-  top: 96px;
+  width: 54vw;
+  padding-left: 8.4vw;
+  padding-top: 2.5vh;
+  padding-bottom: 32px;
 
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -41,11 +39,10 @@
 }
 
 .principal-text p{
-  position: absolute;
-  width:552px;
-  left: 113px;
-  top: 229px;
-
+  max-width: 41vw;
+  padding-left: 8.4vw;
+  padding-bottom: 32px ;
+  
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -58,12 +55,10 @@
 }
 
 .principal-text a{
-  position: absolute;
-  width: 266px;
+  width: 20vw;
   height: 48px;
-  left: 113px;
-  top: 304px;
-
+  margin-left: 8.4vw;
+  
   background: #A0F0F0;
   border-radius: 4px;
 
@@ -77,27 +72,17 @@
   display: flex;
   align-items: center;
   text-align: center;
+
+  margin-bottom: 64px;
 }
 
 .principal-text a span{
-  margin-left: 70px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 150%;
-  
-  display: flex;
-  align-items: right;
-  text-align: right;
-
-  color: #273A9F;
+  margin: 0 auto;
 }
 
 .section-one,
 .section-two{
-  width: 90%;
+  width: 83vw;
   margin: 64px auto;
 }
 
@@ -109,7 +94,7 @@
 }
 
 .section-one h5{
-  width: 534px;
+  width: 40vw;
   margin-top: 64px;
 
   font-style: normal;
@@ -117,25 +102,30 @@
   font-size: 32px;
   line-height: 120%;
 
-  display: flex;
-  align-items: center;
-
   color: #0030C4;
+
+  margin-bottom: 32px;
 }
 
 .section-one p{
-  width: 555px;
+  width: 42vw;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
   
   color: #414141;
+
+  margin-bottom: 24px;
+}
+
+.section-one img{
+  padding-top: 64px;
 }
 
 .section-one a,
 .section-two a{
-  width: 266px;
+  width: 20vw;
   height: 48px;
 
   background: #A0F0F0;
@@ -153,9 +143,15 @@
   color: #273A9F;
 }
 
+.section-one a span,
+.section-two a span{
+  margin: 0 auto;
+}
+
 .section-two h5{
-  width: 446px;
-  height: 103px;
+  width: 33.5vw;
+
+  padding-top: 64px;
 
   font-style: normal;
   font-weight: bold;
@@ -166,6 +162,11 @@
   align-items: center;
   color: #414141;
 }
+
+.section-two a{
+  padding-bottom: 64px;
+}
+
 
 .main{
   width: 90%;
@@ -200,8 +201,60 @@
 }
 
 .forms{
-  width: 100%;
-  background: #273A9F;
+  margin-bottom: 64px;
+}
+
+.forms .formulario{
+  width: 37vw;
+  background: #F4F4F4;
+  margin: 64px auto;
+}
+
+.forms .formulario h5{
+  padding: 32px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.forms .formulario p{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
+
+  color: #000000;
+}
+
+.forms .formulario input{
+  background-color: #fff;
+ 
+  margin: 0 auto;
+
+  border: 1px solid #CFCFDB;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  margin-bottom: 16px;
+}
+
+.forms .formulario button{
+  width: 20vw;
+  height: 48px;
+  background: #A0F0F0;
+  border-radius: 4px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #273A9F;
 }
 
 footer{
