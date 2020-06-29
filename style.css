@@ -201,15 +201,31 @@
 }
 
 .forms{
-  margin-bottom: 64px;
+  width: 100%;
+  height: 194px;
+
+  background-color:  #273A9F;
+
+  position: relative;
+
+  margin-top: 128px;
+  margin-bottom: 50vh;
+
 }
 
 .forms .formulario{
-  width: 37vw;
+  width: 35vw;
   background: #F4F4F4;
   margin: 64px auto;
+
+  position: absolute;
+  top: -160px;
+  left: 28vw;
 }
 
+.forms .formulario div{
+  margin-left: 5vw;
+}
 .forms .formulario h5{
   padding: 32px;
   font-style: normal;
@@ -233,17 +249,20 @@
 
 .forms .formulario input{
   background-color: #fff;
- 
-  margin: 0 auto;
 
   border: 1px solid #CFCFDB;
   box-sizing: border-box;
   border-radius: 4px;
 
   margin-bottom: 16px;
+
+  width: 20vw;
 }
 
 .forms .formulario button{
+  margin-left: 7.5vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   width: 20vw;
   height: 48px;
   background: #A0F0F0;
