@@ -1,43 +1,225 @@
-body{
-  
-  background-color: rgb(58, 53, 53);
-  color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  width: 90vw;
-  margin: 0 auto;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
-h1{
-  margin-top: 64px;
-  margin-bottom: 32px;
+.principal{
+  border: none;
 }
 
+.principal .top-margin{
+  height: 48px;
+  background: #C4C4C4;
+}
 
-.formulario{
+.principal-text{
+  height: 382px;
+  background-color: #073EE9;
+  border-bottom-right-radius: 229px;
+}
+
+.principal-text h5{
+  position: absolute;
+  width: 719px;
+  left: 113px;
+  top: 96px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 120%;
+
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 8px;
+
+  color: #FFFFFF;
 }
 
-.formulario h3{
-  padding-right: 16px;
+.principal-text p{
+  position: absolute;
+  width:552px;
+  left: 113px;
+  top: 229px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
 }
 
-.formulario input{
-  width: 400px;
-  padding: 4px;
-  outline: none;
-  border-radius: 5px;
+.principal-text a{
+  position: absolute;
+  width: 266px;
+  height: 48px;
+  left: 113px;
+  top: 304px;
+
+  background: #A0F0F0;
+  border-radius: 4px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #273A9F;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
-button{
+.principal-text a span{
+  margin-left: 70px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  
+  display: flex;
+  align-items: right;
+  text-align: right;
+
+  color: #273A9F;
+}
+
+.section-one,
+.section-two{
+  width: 90%;
+  margin: 64px auto;
+}
+
+.section-one .card-style,
+.section-two .card-style{
+  border-bottom: 2px solid #414141;
+  padding-bottom: 64px;
+
+}
+
+.section-one h5{
+  width: 534px;
+  margin-top: 64px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 120%;
+
+  display: flex;
+  align-items: center;
+
+  color: #0030C4;
+}
+
+.section-one p{
+  width: 555px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  
+  color: #414141;
+}
+
+.section-one a,
+.section-two a{
+  width: 266px;
+  height: 48px;
+
+  background: #A0F0F0;
+  border-radius: 4px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #273A9F;
+}
+
+.section-two h5{
+  width: 446px;
+  height: 103px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 120%;
+  
+  display: flex;
+  align-items: center;
+  color: #414141;
+}
+
+.main{
+  width: 90%;
+  margin: 64px auto;
+  text-align: center;
+}
+
+.main h5{
+  width: 70vw;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 120%;
+
+  color: #0030C4;
+}
+
+.main p{
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 32px;
-  width: 80px;
-  height: 30px;
-  background-color: #ddd;
-  cursor: pointer;
-  border-radius: 5px;
+
+  text-align: justify;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #414141;
 }
 
+.forms{
+  width: 100%;
+  background: #273A9F;
+}
+
+footer{
+  width: 100%;
+  padding: 16px;
+  background: #414141;
+}
+
+footer p{
+  width: 528px;
+  height: 50px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}

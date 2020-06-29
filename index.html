@@ -2,8 +2,11 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8"/>
-  <title>.: Formulário - Nome do Site </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>.: Nome do Site </title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
 
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -23,38 +26,114 @@
   <!-- End Google Tag Manager (noscript) -->
 
 
-  <h1> Ficou interessado. </h1>
-  <h2> Preencha seus dados e ganhe controle sobre o seu trabalho</h2>
-  <form method="POST" action="https://smtl.gama.academy/leads/bfeee316-b7e1-11ea-8228-89cff86db9a0">
-  
-    <div class="formulario">
-          <h3>Nome: </h3>
-          <input
-              name="name"
-              type="text"
-              pattern = "^\D{2,}\s[\D\s]{2,}$"
-              placeholder="Digite seu nome completo"
-              required
-          /> 
-    </div>
-        
-    <div class="formulario">
-          <h3> Email:</h3> 
-          <input
-            name="email"
-            type="email"
-            placeholder="Digite seu melhor email"
-            required 
-          />
-    </div>
-    
-    
-    <input name="redirectTo" type="hidden" value="agradecimento" />
-    
-    
-    <button type="submit"> Enviar </button> 
-    
 
-  </form>
+  
+  <div class="card mb-3 principal">
+    <div class="card-header top-margin"></div>
+      <div class="card-body principal-text">
+        <h5 class="card-title">Aqui tem um título marcante definido pelos
+          hypers e hustler
+        </h5>
+        <p class="card-text">
+          Aqui tem um subtítulo mais marcante ainda definido pelos hypers e hustler.
+        </p>
+
+        <a href="#" class="btn"><span>Click to action</span></a>
+      </div>
+  </div>
+
+  <div class="card mb-3 section-one">
+    <div class="row no-gutters card-style">
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Sabe quais ferramentas precisa para otimizar processos de trabalho ?</h5>
+          <p class="card-text">Muita operação, pouca otimização, dificuldade da equipe em saber o que é seu job, retrabalho.. 
+            Conheça ferramentas que podem otimizar diferentes tipos de equipes e problemas...</p>
+
+            <a href="#">Baixe e conheça </a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <img src="..." class="card-img" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3 section-two">
+    <div class="row no-gutters card-style">
+      <div class="col-md-4">
+        <div class="card-body">
+          <h5 class="card-title">Você realmente sabe que ferramentas
+            sua área precisa para otimizar processos ?
+          </h5>
+            <a href="#">Baixe e comece agora </a>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <img src="..." class="card-img" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <div class="main">
+    <h5>Entenda as possibilidades existentes e escolha a que mais
+      se encaixa na sua necessidade do momento!
+    </h5>
+    <p>
+      A pandemia nos trouxe muitos desafios em termos de operacionalização do nosso 
+      dia a dia profissional em casa, não é mesmo? Isso nos fez perceber que aquele 
+      tempo no trânsito, por exemplo, faz diferença no final do dia, quando é 
+      possível uma tranquila janta em família. Mas, e os processos? Será que 
+      também não perdemos tempo demais com “trânsito” na nossa operação? 
+      Compartilhamos a seguir com vocês 32 ferramentas focadas em Recursos Humanos, 
+      Marketing & Vendas, Financeiro e Suporte! 
+    </p>
+    <p>
+      Baixe agora e descubra que está na 
+      hora de trazer ferramentas para o seu workflow para que, finalmente, 
+      seja possível focar na estratégia!
+    </p>
+  </div>
+  
+
+  <div class="forms">
+    <form method="POST" action="https://smtl.gama.academy/leads/bfeee316-b7e1-11ea-8228-89cff86db9a0">
+    
+      <div class="formulario">
+            <h3>Nome: </h3>
+            <input
+                name="name"
+                type="text"
+                pattern = "^\D{2,}\s[\D\s]{2,}$"
+                placeholder="Digite seu nome completo"
+                required
+            /> 
+      </div>
+          
+      <div class="formulario">
+            <h3> Email:</h3> 
+            <input
+              name="email"
+              type="email"
+              placeholder="Digite seu melhor email"
+              required 
+            />
+      </div>
+      
+      
+      <input name="redirectTo" type="hidden" value="agradecimento.html" />
+      
+      
+      <button type="submit"> Enviar </button> 
+      
+
+    </form>
+  </div>
+
+  <footer>
+    <p>Todos os direitos reservados Nome da empresa aqui com simbolo de copright</p>
+  </footer>
 </body>
 </html>
