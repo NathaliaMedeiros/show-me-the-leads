@@ -11,11 +11,6 @@
   border: none;
 }
 
-.principal .top-margin{
-  height: 48px;
-  background: #C4C4C4;
-}
-
 .principal-text{
   background-color: #073EE9;
   border-bottom-right-radius: 229px;
@@ -214,13 +209,13 @@
 }
 
 .forms .formulario{
-  width: 35vw;
+  width: 50vw;
   background: #F4F4F4;
   margin: 64px auto;
 
   position: absolute;
   top: -160px;
-  left: 28vw;
+  left: 23vw;
 }
 
 .forms .formulario div{
@@ -250,33 +245,38 @@
 .forms .formulario input{
   background-color: #fff;
 
+  width: 20vw;
+  height: 5vh;
   border: 1px solid #CFCFDB;
   box-sizing: border-box;
   border-radius: 4px;
 
-  margin-bottom: 16px;
+  margin-bottom: 2vh;
 
-  width: 20vw;
+  
 }
 
 .forms .formulario button{
   margin-left: 7.5vw;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin-top: 4vh;
+  margin-bottom: 2vh;
   width: 20vw;
   height: 48px;
   background: #A0F0F0;
   border-radius: 4px;
+}
 
+.forms .formulario button span{
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 150%;
 
   color: #273A9F;
 }
 
 footer{
+  word-wrap: break-word;
   width: 100%;
   padding: 16px;
   background: #414141;
