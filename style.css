@@ -116,10 +116,10 @@
 
 .section-one img{
   padding-top: 64px;
+  height: 350px;
 }
 
-.section-one a,
-.section-two a{
+.section-one a{
   width: 20vw;
   height: 48px;
 
@@ -138,30 +138,9 @@
   color: #273A9F;
 }
 
-.section-one a span,
-.section-two a span{
+.section-one a span{
   margin: 0 auto;
 }
-
-.section-two h5{
-  width: 33.5vw;
-
-  padding-top: 64px;
-
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 120%;
-  
-  display: flex;
-  align-items: center;
-  color: #414141;
-}
-
-.section-two a{
-  padding-bottom: 64px;
-}
-
 
 .main{
   width: 90%;
@@ -209,13 +188,13 @@
 }
 
 .forms .formulario{
-  width: 50vw;
+  width: 60vw;
   background: #F4F4F4;
   margin: 64px auto;
 
   position: absolute;
   top: -180px;
-  left: 23vw;
+  left: 18vw;
 }
 
 .forms .formulario div{
@@ -257,7 +236,7 @@
 }
 
 .forms .formulario button{
-  margin-left: 12.5vw;
+  margin-left: 18vw;
   margin-top: 4vh;
   margin-bottom: 2vh;
   width: 20vw;
