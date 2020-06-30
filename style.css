@@ -242,15 +242,13 @@
   margin-left: 18vw;
   margin-top: 2vh;
   margin-bottom: 2vh;
-  width: 25vw;
+  width: 30vw;
   height: 48px;
   background: #A0F0F0;
   border-radius: 4px;
 
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-}
 
-.forms .formulario button span{
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
