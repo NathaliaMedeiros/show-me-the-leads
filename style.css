@@ -227,7 +227,7 @@
 .forms .formulario input{
   background-color: #fff;
 
-  width: 25vw;
+  width: 50vw;
   height: 5vh;
   border: 1px solid #CFCFDB;
   box-sizing: border-box;
@@ -242,7 +242,7 @@
   margin-left: 18vw;
   margin-top: 2vh;
   margin-bottom: 2vh;
-  width: 20vw;
+  width: 25vw;
   height: 48px;
   background: #A0F0F0;
   border-radius: 4px;
